@@ -1,0 +1,143 @@
+.wrapper{
+    position: relative;
+    overflow: hidden;
+    min-height: 100%;
+    background-color: yellowgreen;
+}
+.header{
+    padding: 20px;
+    width: 100%;
+    background-color:indigo;
+    color: white;
+    text-align: center;
+    position:fixed;
+    z-index: 1;
+
+
+}
+.blocks{
+    padding:70px;
+    background-color: blanchedalmond;
+
+}
+.items{
+    background-color: aqua;
+    padding: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+.items__item--bg-green{
+    background-color: green;
+    position: relative;
+    left: 10px;
+}
+.items__item--bg-black{
+    background-color: black;
+}
+.items__item--bg-red{
+    background-color: red;
+    position: relative;
+    right: 10px;
+}
+.blocks-position{
+    padding: 70px;
+    background-color: blue;
+}
+.items-bg{
+    background-color:navy;
+    padding: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+
+}
+.items__bg--bg-yellow{
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    border: dotted 5px blue;
+    border-radius: 7px;
+}
+.items__bg--bg-violet{
+    background-color: violet;
+    padding: 10px;
+}
+.items__bg--bg-maroon{
+    background-color: maroon;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    border: dotted 5px blue;
+    border-radius: 7px;
+
+}
+p{
+    padding: 20px;
+    background-color: coral;
+    color: white;
+}
+.footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.car{
+    width: 100%;
+    min-width: 1400px;
+    height: 800px;
+    position: relative;
+    background-color:green;
+    
+}
+.photos{
+}
+.photos__photo--bg-dah{
+    position: absolute;
+    top:40px;
+    left: 330px;
+}
+.photos__photo--bg-kapot{
+    position: absolute;
+    top:160px;
+    left: 550px;
+}
+.photos__photo--bg-lobove{
+    position: absolute;
+    top:32px;
+    left: 480px;
+}
+.photos__photo--bg-koleso-pered{
+    position: absolute;
+    top:210px;
+    left: 500px;
+}
+.photos__photo--bg-koleso-zad{
+    position: absolute;
+    top:165px;
+    left: 200px;
+}
+.photos__photo--bg-zad{
+    position: absolute;
+    top:58px;
+    left: 265px;
+}
+.photos__photo--bg-dveri{
+    position: absolute;
+    top:57px;
+    left: 350px;
+}
+.photos__photo--car{
+opacity: 0;
+}
